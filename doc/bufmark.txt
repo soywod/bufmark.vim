@@ -1,0 +1,70 @@
+*bufmark.txt* - An automatic vim sessions manager.
+
+==============================================================================
+INTRODUCTION                                                         *bufmark* 
+
+Bufmark allows you to bookmark buffers like i3 {1} does with workspace:
+`Mod+Shift+1` to set up, `Mod+1` to load.
+
+                                                         {1} https://i3wm.org/
+
+==============================================================================
+MAPPINGS                                                    *bufmark-mappings* 
+
+Here the default mappings:
+
+Note: default mappings have been tested on US-like keyboard, consider
+customize them if it doesn't work
+
+Note: the alt mapping may not work as expected on vim, consider customize
+them
+>
+  nmap <a-)> <plug>(bufmark-save-0)
+  nmap <a-!> <plug>(bufmark-save-1)
+  nmap <a-@> <plug>(bufmark-save-2)
+  nmap <a-#> <plug>(bufmark-save-3)
+  nmap <a-$> <plug>(bufmark-save-4)
+  nmap <a-%> <plug>(bufmark-save-5)
+  nmap <a-^> <plug>(bufmark-save-6)
+  nmap <a-&> <plug>(bufmark-save-7)
+  nmap <a-*> <plug>(bufmark-save-8)
+  nmap <a-(> <plug>(bufmark-save-9)
+
+  nmap <a-0> <plug>(bufmark-load-0)
+  nmap <a-1> <plug>(bufmark-load-1)
+  nmap <a-2> <plug>(bufmark-load-2)
+  nmap <a-3> <plug>(bufmark-load-3)
+  nmap <a-4> <plug>(bufmark-load-4)
+  nmap <a-5> <plug>(bufmark-load-5)
+  nmap <a-6> <plug>(bufmark-load-6)
+  nmap <a-7> <plug>(bufmark-load-7)
+  nmap <a-8> <plug>(bufmark-load-8)
+  nmap <a-9> <plug>(bufmark-load-9)
+>
+==============================================================================
+LICENSE                                                      *bufmark-license* 
+
+MIT License
+
+Copyright (c) 2019 Clément DOUIN <soywod@users.noreply.github.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+==============================================================================
+vim:tw=78:ts=4:ft=help:norl:
