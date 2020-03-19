@@ -1,5 +1,6 @@
 # Bufmark.vim
-An buffer bookmark manager.
+
+A buffer bookmark manager.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/10437171/57775547-90497180-771d-11e9-86f1-eed126e94ffa.gif"></img>
@@ -7,13 +8,13 @@ An buffer bookmark manager.
 
 ## Introduction
 
-Bufmark allows you to bookmark buffers like [i3](https://i3wm.org/) does with
-workspace: `Mod+Shift+1` to set up, `Mod+1` to load.
+Bufmark allows you to bookmark buffers like [i3](https://i3wm.org/)'s
+workspaces: `Mod+Shift+1` to save the actual position, `Mod+1` to load it.
 
 ## Installation
 
 ```vim
-Plug 'soywod/bufmark.vim'
+Plug "soywod/bufmark.vim"
 ```
 
 ## Mappings
